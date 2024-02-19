@@ -9,27 +9,10 @@ This project is a backend implementation of an Online Contact Management System 
 - Logging of controller method responses using Aspect-Oriented Programming (AOP)
 - Data storage using H2 Database
 - RESTful API endpoints:
-  - POST /api/v1/users - Add users
-  - GET /api/v1/users/{id} - Get details about a user
-  - PUT /api/v1/users/{id} - Update a user
-  - DELETE /api/v1/users/{id} - Delete a user
- 
-## How to Run
- 
-1. Clone this repository to your local machine.
-2. Make sure you have Java and Maven installed.
-3. Navigate to the project directory in your terminal.
-4. Run the following command to start the application:
-5. The application will start at `http://localhost:8080`.
- 
-## Testing Endpoints
- 
-You can test the implemented endpoints using tools like Postman or cURL:
- 
-- POST /api/v1/users
-- GET /api/v1/users/{id}
-- PUT /api/v1/users/{id}
-- DELETE /api/v1/users/{id}
+  - POST /api/v1/contacts - Add users
+  - GET /api/v1/contacts/{id} - Get details about a user
+  - PUT /api/v1/ucontactssers/{id} - Update a user
+  - DELETE /api/v1/contacts/{id} - Delete a user
  
 ## Logging
  
