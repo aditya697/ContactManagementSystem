@@ -9,10 +9,10 @@ This project is a backend implementation of an Online Contact Management System 
 - Logging of controller method responses using Aspect-Oriented Programming (AOP)
 - Data storage using H2 Database
 - RESTful API endpoints:
-  - POST /api/v1/contacts - Add users
-  - GET /api/v1/contacts/{id} - Get details about a user
-  - PUT /api/v1/ucontactssers/{id} - Update a user
-  - DELETE /api/v1/contacts/{id} - Delete a user
+  - POST /api/v1/contacts - Add contact
+  - GET /api/v1/contacts/{id} - Get details about a contact
+  - PUT /api/v1/ucontactssers/{id} - Update a contact
+  - DELETE /api/v1/contacts/{id} - Delete a contact
  
 ## Logging
  
